@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cashDepositScreen">
+
+    <TextView
+        android:id="@+id/oneCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="282dp"
+        android:text="(0)"
+        android:textColor="#4EA655"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fiftyCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="382dp"
+        android:layout_marginEnd="104dp"
+        android:text="(0)"
+        android:textColor="#4EA655"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/twentyCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="282dp"
+        android:layout_marginEnd="104dp"
+        android:text="(0)"
+        android:textColor="#4EA655"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tenCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="483dp"
+        android:text="(0)"
+        android:textColor="#4EA655"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fiveCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="382dp"
+        android:text="(0)"
+        android:textColor="#4EA655"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/subHundred"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="449dp"
+        android:layout_marginEnd="146dp"
+        android:background="#B12525"
+        android:text="-"
+        android:textColor="#111111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/subFifty"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="146dp"
+        android:background="#B12525"
+        android:text="-"
+        android:textColor="#111111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/subOne"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="250dp"
+        android:background="#B12525"
+        android:text="-"
+        android:textColor="#111111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/subTwenty"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="250dp"
+        android:background="#B12525"
+        android:text="-"
+        android:textColor="#111111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/subTen"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="449dp"
+        android:background="#B12525"
+        android:text="-"
+        android:textColor="#111111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addHundred"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="449dp"
+        android:layout_marginEnd="41dp"
+        android:background="#33CC33"
+        android:text="+"
+        android:textColor="#111111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addFifty"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="54dp"
+        android:background="#33CC33"
+        android:text="+"
+        android:textColor="#111111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addTwenty"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="54dp"
+        android:background="#33CC33"
+        android:text="+"
+        android:textColor="#111111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addTen"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="449dp"
+        android:background="#33CC33"
+        android:text="+"
+        android:textColor="#111111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addFive"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="350dp"
+        android:background="#33CC33"
+        android:text="+"
+        android:textColor="#111111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tenText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="436dp"
+        android:text="$10"
+        android:textColor="#111111"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fiveText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="337dp"
+        android:text="$5"
+        android:textColor="#111111"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/oneText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="237dp"
+        android:text="$1"
+        android:textColor="#111111"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="128dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="561dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="134dp"
+        android:background="#B12525"
+        android:text="Cancel"
+        android:textColor="#111111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter cash amount to deposit."
+        android:textColor="#111111"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <Button
+        android:id="@+id/enterButton"
+        android:layout_width="127dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="561dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="133dp"
+        android:background="#33CC33"
+        android:text="Deposit"
+        android:textColor="#111111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo5"
+        android:layout_width="94dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/newpandalogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logoName6"
+        android:layout_width="68dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/logo5"
+        app:srcCompat="@drawable/mutant_bamboo" />
+
+    <TextView
+        android:id="@+id/twentyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="97dp"
+        android:text="$20"
+        android:textColor="#111111"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fiftyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="337dp"
+        android:layout_marginEnd="97dp"
+        android:text="$50"
+        android:textColor="#111111"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hundredText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="436dp"
+        android:layout_marginEnd="84dp"
+        android:text="$100"
+        android:textColor="#111111"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addOne"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="245dp"
+        android:background="#33CC33"
+        android:text="+"
+        android:textColor="#111111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/subFive"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="350dp"
+        android:background="#B12525"
+        android:text="-"
+        android:textColor="#111111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hundredCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="483dp"
+        android:layout_marginEnd="104dp"
+        android:text="(0)"
+        android:textColor="#4EA655"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

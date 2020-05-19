@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuScreen">
+
+    <TextView
+        android:id="@+id/buildingLocation2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Building Location:"
+        android:textColor="#111111"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/atmLocation2"
+        app:layout_constraintTop_toBottomOf="@+id/atmLocation2" />
+
+    <TextView
+        android:id="@+id/atmLocation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATM Location: "
+        android:textColor="#111111"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageView
+        android:id="@+id/logoName5"
+        android:layout_width="68dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="14dp"
+        app:layout_constraintEnd_toEndOf="@+id/logo8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/logo8"
+        app:srcCompat="@drawable/mutant_bamboo" />
+
+    <ImageView
+        android:id="@+id/logo8"
+        android:layout_width="94dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/newpandalogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/depositBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#33cc33"
+        android:text="   Deposit                     "
+        android:textColor="#111111"
+        app:layout_constraintBottom_toTopOf="@+id/withdrawBtn"
+        app:layout_constraintStart_toStartOf="@+id/withdrawBtn" />
+
+    <TextView
+        android:id="@+id/welcomeTxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Select your transaction."
+        android:textColor="#111111"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/withdrawBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeTxt" />
+
+    <ImageView
+        android:id="@+id/backgroundImage2"
+        android:layout_width="0dp"
+        android:layout_height="663dp"
+        android:layout_marginTop="172dp"
+        android:src="@drawable/cute_panda_paws_up_wall_panda_face_cartoon_icon_42750_498"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/transferBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="35dp"
+        android:background="#33cc33"
+        android:text="   transfer                  "
+        android:textColor="#111111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backgroundImage2" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:background="#B12525"
+        android:text="log out"
+        android:textColor="#111111"
+        app:layout_constraintBaseline_toBaselineOf="@+id/balanceBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/balanceBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:background="#C5B5B5"
+        android:text="   Balance Inquiry   "
+        android:textColor="#111111"
+        app:layout_constraintEnd_toEndOf="@+id/transferBtn"
+        app:layout_constraintTop_toBottomOf="@+id/transferBtn" />
+
+    <Button
+        android:id="@+id/withdrawBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#33cc33"
+        android:text="   withdraw                "
+        android:textColor="#111111"
+        app:layout_constraintBottom_toTopOf="@+id/transferBtn"
+        app:layout_constraintStart_toStartOf="@+id/transferBtn" />
+
+    <TextView
+        android:id="@+id/welcomeTxt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome, "
+        android:textColor="#111111"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/depositBtn"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/depositBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

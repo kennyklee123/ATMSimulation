@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_confirmation_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".receiptConfirmationScreen">
+
+    <ImageView
+        android:id="@+id/backgroundImage3"
+        android:layout_width="0dp"
+        android:layout_height="663dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/bambooback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bambooback" />
+
+    <Button
+        android:id="@+id/noReceipt"
+        android:layout_width="128dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="133dp"
+        android:background="#B12525"
+        android:text="No"
+        android:textColor="#111111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Would you like a receipt?"
+        android:textColor="#111111"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <Button
+        android:id="@+id/yesReceipt"
+        android:layout_width="127dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="133dp"
+        android:background="#33CC33"
+        android:text="Yes"
+        android:textColor="#111111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo5"
+        android:layout_width="94dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/newpandalogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logoName6"
+        android:layout_width="68dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/logo5"
+        app:srcCompat="@drawable/mutant_bamboo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

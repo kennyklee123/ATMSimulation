@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.group7.pandaatm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".receiptScreen"
+            android:label="@string/title_activity_receipt_screen"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".transactionSuccessful"
+            android:label="@string/title_activity_transfer_successful_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".transactionUnsuccessful"
+            android:label="@string/title_activity_transfer_unsuccessful_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".withdrawAmtTransfer"
+            android:label="@string/title_activity_withdraw_amt_transfer_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".selectAccount"
+            android:label="@string/title_activity_select_account_deposit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".withdrawCustomAmt"
+            android:label="@string/title_activity_withdraw_diff_amt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MenuScreen"
+            android:label="@string/title_activity_transaction_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".balanceScreen"
+            android:label="@string/title_activity_balance_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cashDepositScreen"
+            android:label="@string/title_activity_cash_deposit_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".withdrawScreen"
+            android:label="@string/title_activity_withdraw_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".loginScreen"
+            android:label="@string/title_activity_atm_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConfirmationScreen"
+            android:label="@string/title_activity_confirmation_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".splashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

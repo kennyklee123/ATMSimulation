@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Panda ATM</string>
+    <string name="title_activity_transaction_screen">transactionScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="title_activity_atm_login">Sign in</string>
+    <string name="title_activity_main_screen">mainScreen</string>
+    <string name="title_activity_withdraw_screen">withdrawScreen</string>
+    <string name="title_activity_deposit_choice_screen">depositChoiceScreen</string>
+    <string name="title_activity_cash_deposit_screen">cashDepositScreen</string>
+    <string name="title_activity_check_deposit_screen">checkDepositScreen</string>
+    <string name="title_activity_transfer_type">transferType</string>
+    <string name="title_activity_outside_transfer">outsideTransfer</string>
+    <string name="title_activity_splash_screen">splashScreen</string>
+    <string name="title_activity_balance_screen">balanceScreen</string>
+    <string name="title_activity_withdraw_amt_transfer_screen">withdrawAmtTransfer</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_withdraw_diff_amt">withdrawDiffAmt</string>
+    <string name="title_activity_select_account">selectAccount</string>
+    <string name="title_activity_select_account_transfer_from">selectAccountTransfer</string>
+    <string name="title_activity_select_account_transfer_to">selectAccountTransfer</string>
+    <string name="title_activity_select_account_deposit">selectAccountDeposit</string>
+    <string name="title_activity_select_account_withdraw">selectAccountWithdraw</string>
+    <string name="title_activity_select_account_balance">selectAccountBalance</string>
+    <string name="title_activity_deposit_successful_screen">depositSuccessfulScreen</string>
+    <string name="title_activity_deposit_unsuccessful_screen">depositUnsuccessfulScreen</string>
+    <string name="title_activity_withdraw_successful_screen">withdrawSuccessfulScreen</string>
+    <string name="title_activity_withdraw_unsuccessful_screen">withdrawUnsuccessfulScreen</string>
+    <string name="title_activity_transfer_successful_screen">transferSuccessfulScreen</string>
+    <string name="title_activity_transfer_unsuccessful_screen">transferUnsuccessfulScreen</string>
+    <string name="title_activity_confirmation_screen">confirmationScreen</string>
+    <string name="title_activity_receipt_screen">receiptScreen</string>
+</resources>
