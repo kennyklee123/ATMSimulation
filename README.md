@@ -1,5 +1,6 @@
+![image](https://user-images.githubusercontent.com/55815393/87610432-3003e600-c6ba-11ea-96c8-1acb9f6c6033.png)
 # PandaATM
-This is an Android app that simulates a real life experience of using an ATM.  This project's entire backend was implemented using Java and the database was built using SQLite.  Our front-end was built using Android Studios that is connected to our server using TCP Sockets which allows multiple multiple concrrent users.
+This is an Android app that simulates a real life experience of using an ATM.   This project's entire backend was implemented using Java and the database was built using SQLite.  Our front-end was built using Android Studios that is connected to our server using TCP Sockets which allows multiple multiple concrrent users.
 
 # Usage
 To run this program, you must start up the server on your local machine. 
