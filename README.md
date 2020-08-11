@@ -3,6 +3,8 @@ This is an Android app that simulates a real life experience of using an ATM.  Y
 ## Demo
 ![image](https://user-images.githubusercontent.com/55815393/87610432-3003e600-c6ba-11ea-96c8-1acb9f6c6033.png)
 
+## User Interface Activity Flow
+![image](https://user-images.githubusercontent.com/55815393/89862737-6d468100-db5d-11ea-8f46-06bed49c4a3a.png)
 ## Technologies and API Used
 * Java
 * [Figma](https://www.figma.com)
